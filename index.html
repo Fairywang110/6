@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>曰茶去</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<style type="text/css">
+			 *,body{
+			    width:100%;
+		      	height:100%;
+		      	margin:0px auto;
+                padding:0px auto;
+                overflow: hidden; 
+                	
+            }
+            #mainDiv{
+            	width:100%;
+            	height:100%;
+                margin:0px auto;
+                padding:0px auto;
+            	background-image:url("img/image.jpg");
+            	background-size:cover;
+            	background-position:center;
+            	background-repeat:no-repeat;
+            	position:relative;
+            }
+            #img1{ 
+                top:30px;
+                left:18px;
+            	width:100%;
+            	height:100%;
+            	animation:bei 9s linear 1 ;
+            }
+            @keyframes bei{
+            	0%{opacity:0}
+		      	50%{opacity:0.1}
+		      	75%{opacity:0.2}
+		      	100%{opacity:1}
+            }
+           
+    
+            #person{
+            	width:40%;
+            	height:50%;
+            	position:relative;
+            	bottom:400px;
+            	left:10px;
+            	
+            	animation:chux2 6s linear 1 ;
+            }
+          
+		    @keyframes chux2{
+            	0%{opacity:0;bottom:400px;left:310px;}
+            	20%{opacity:1;bottom:400px;left:260px;}
+		      	40%{bottom:400px;left:210px;}
+            	60%{bottom:400px;left:160px;}
+            	85%{bottom:400px;left:80px;}
+		      	100%{bottom:400px;left:10px;}
+		    }
+		</style>
+
+	</head>
+	<body>
+	    <a href="index1.html" target="_blank">
+			<div id="mainDiv">
+				<div id="img1"><img id="img1" src="img/yuechazi.PNG"/></div>
+				<img id="person" src="img/people.png"/>		
+			</div>
+		</a>
+	    
+	</body>
+</html>
